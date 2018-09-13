@@ -1,8 +1,6 @@
 module.exports = {
   plugins: {
-    'postcss-import': {
-      plugins: ['stylelint'],
-    },
+    'postcss-import': {},
     'postcss-url': {},
     'postcss-cssnext': {},
     'postcss-extend': {},
